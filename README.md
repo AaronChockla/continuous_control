@@ -17,7 +17,7 @@ The environment is set up as follows:
  - **Reward:** +0.1 is earned for each step during which the agent's hand is in the goal location.
  - **Obserfaction space:** consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
-The contents in the <code>continuous_control.ipynb</code> file solve the second version of this environment.
+The contents in the <code>Continuous_Control.ipynb</code> file solve the second version of this environment.
 
 ## Getting Started
 1. Clone this repository.
