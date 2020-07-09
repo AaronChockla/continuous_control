@@ -30,8 +30,9 @@ As noted above, the DDPG model uses both actor and critic networks.  The structu
 ### Training and Results
 
 # Plot of Rewards
+<img src="https://github.com/AaronChockla/continuous_control/blob/master/results.png" alt="Results" title="Results" style="max-width:100%;">
 
-The plot, above, shows the agent solved the environment after *XXX* episodes and settles at an average score around *XXX* after 250 episodes.
+The plot, above, shows the agent solved the environment after 155 episodes and settles at an average score around 35 after 250 episodes.
 
 Training process initially followed the architecture and hyperparameter values from the original paper very closely, though these values did not result in good performance.  Instead, the hyperparameters were tuned to arrive at the following:
 
